@@ -52,14 +52,12 @@ def calculate_heuristic(
 
 
 def is_valid_neighbor(neighbor: Tuple[int, int], grid: List[List[str]]) -> bool:
-    """Check if a neighbor position is valid for pathfinding"""
     return grid[neighbor[0]][neighbor[1]] in [".", "R"]
 
 
 def astar_pathfinding(
     start: Tuple[int, int], goal: Tuple[int, int], grid: List[List[str]]
 ) -> Tuple[List[Tuple[int, int]], int]:
-    """Temukan path terbaik dari start ke goal menggunakan A*"""
     open_list = []
     closed_set = set()
     best_g_cost = {}
