@@ -1,4 +1,4 @@
-# Basketball A\* Pathfinding Simulation
+# Basketball's Fast Break A\* Pathfinding Simulation
 
 Simulasi permainan basket yang menggunakan algoritma A\* untuk menentukan jalur optimal pemain menuju ring basket.
 
